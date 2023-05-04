@@ -9,10 +9,12 @@
   "author": "",
   "scripts": {
     "test": "node --test tests/*.js",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "doc": "typedoc src/index.js"
   },
   "devDependencies": {
     "@types/node": "^18.16.3",
+    "typedoc": "^0.24.6",
     "typescript": "^5.0.4"
   }
 }
