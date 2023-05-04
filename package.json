@@ -1,0 +1,18 @@
+{
+  "name": "starter-lib",
+  "version": "0.0.1",
+  "description": "Pure ESM library starter in JavaScript with type checking!",
+  "type": "module",
+  "exports": "./src/index.js",
+  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "scripts": {
+    "test": "node --test tests/*.js",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.4"
+  }
+}
