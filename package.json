@@ -1,5 +1,5 @@
 {
-  "name": "starter-lib",
+  "name": "starter-libesm",
   "version": "0.0.1",
   "description": "Pure ESM library starter in JavaScript with type checking!",
   "type": "module",

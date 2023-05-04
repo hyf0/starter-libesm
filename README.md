@@ -1,4 +1,4 @@
-# starter-libesm
+# [starter-libesm](https://github.com/hyf0/starter-libesm)
 
 Pure ESM library starter in JavaScript with type checking!
 
