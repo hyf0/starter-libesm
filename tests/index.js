@@ -1,9 +1,9 @@
 import assert from 'assert'
 import { describe, it } from 'node:test'
-import { one, two } from '../src/index.js'
+import { box, map } from '../src/index.js'
 
 describe('should', () => {
   it('exported', () => {
-    assert.equal(one + one, two)
+    assert.equal(map(box(1), v => String(v)).value, '1')
   })
 })
