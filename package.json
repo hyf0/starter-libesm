@@ -12,10 +12,7 @@
   },
   "author": "",
   "scripts": {
-    "test": "run-script-os",
-    "test:default": "node --test ./tests/*.js",
-    "test:windows": "echo 'node test runner has problems in Windows'",
-    "__bak__test:windows": "node --test .\\tests\\*.js",
+    "test": "node --test ./tests/*.js",
     "type-check": "tsc --noEmit",
     "doc:build": "typedoc src/index.js",
     "doc:serve": "serve ./docs",
@@ -24,7 +21,6 @@
   "devDependencies": {
     "@types/node": "^18.16.3",
     "npm-run-all": "^4.1.5",
-    "run-script-os": "^1.1.6",
     "serve": "^14.2.0",
     "typedoc": "^0.24.6",
     "typescript": "^5.0.4"
