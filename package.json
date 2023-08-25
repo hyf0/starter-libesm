@@ -14,7 +14,7 @@
     "pnpm": ">=8.3.1"
   },
   "scripts": {
-    "test": "node --test tests/*.js",
+    "test": "node --test \"tests/*.js\"",
     "type-check": "tsc --noEmit",
     "doc:build": "typedoc src/index.js",
     "doc:serve": "serve ./docs",
