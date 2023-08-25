@@ -13,8 +13,10 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node: [20.x]
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        node: [18.x, 20.x]
+        # os: [ubuntu-latest, windows-latest, macos-latest]
+        # FIXME: Ignore windows. https://github.com/hyf0/starter-libesm/issues/2
+        os: [ubuntu-latest, macos-latest]
       fail-fast: false
 
     steps:
